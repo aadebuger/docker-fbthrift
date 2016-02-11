@@ -20,6 +20,7 @@ RUN apt-get install -yq \
     libevent-dev \
     libgoogle-glog-dev \
     wget
+run apt-get -y install python-software-properties
 WORKDIR /home
 RUN git clone https://github.com/facebook/fbthrift.git
 WORKDIR /home/fbthrift/thrift
