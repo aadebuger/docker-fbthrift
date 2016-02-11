@@ -28,7 +28,7 @@ WORKDIR /home/fbthrift/thrift
 
 #run ls /home/wangle/wangle
 #run cat /home/wangle/wangle/CMakeLists.txt
-run bash ./build/deps_ubuntu_14.04.sh  
+run bash ./build/deps_ubuntu_12.04.sh  
 run autoreconf -if
 run ./configure && make 
 #run ctest
